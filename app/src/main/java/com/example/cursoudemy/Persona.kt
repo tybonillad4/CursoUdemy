@@ -9,6 +9,8 @@ open class Persona(
     //Cualquier clase tiene una superclase comun "Any"
     open fun work() {   //el open se usa para poder sobreescribir metodos en las clases hijas
         println("Esta persona esta trabajando")
+
+        println("aca se hace un comentario para la rama: otra rama prueba")
     }
 
     override fun goToWork() {
