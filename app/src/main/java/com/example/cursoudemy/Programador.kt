@@ -6,6 +6,7 @@ class Programador(name: String, age: Int, val lenguaje: String) : Persona(name, 
     override fun work() {
         //super.work()    si se ejecuta se volvera a imprimir lo que este en este mismo metodo de la clase padre
         println("Esta persona esta programando")
+        println("Comentario prueba para git")
     }
 
     fun sayLenguaje() {
