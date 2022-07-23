@@ -10,6 +10,7 @@ open class Persona(
     open fun work() {   //el open se usa para poder sobreescribir metodos en las clases hijas
         println("Esta persona esta trabajando")
         println("Se esta haciendo un comentario para git")
+        println("aca se hace un comentario para la rama: otra rama prueba")
     }
 
     override fun goToWork() {
